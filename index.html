@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohamed Bucheeri – Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Outfit', sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #1a1a1a;
+    }
+    header {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+      padding: 4rem 1rem 2rem;
+    }
+    header img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      border: 4px solid white;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #ddd;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      background: #fff;
+      border-bottom: 1px solid #eee;
+    }
+    nav a {
+      color: #203a43;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .highlight {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #0f4c75;
+      margin-bottom: 1rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    iframe {
+      width: 100%;
+      height: 360px;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+    .buttons a {
+      display: inline-block;
+      margin: 0.5rem 0.5rem 0;
+      background: #0f4c75;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .buttons a:hover {
+      background: #3282b8;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="Profile Picture.jpg" alt="Mohamed Bucheeri">
+  <h1>Mohamed Bucheeri</h1>
+  <p>Maths & Data Science Specialist · Actuarial Analyst · Private Tutor</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#tutoring">Tutoring</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <div class="highlight">About Me</div>
+  <p>Hi! I’m Mohamed, a final-year MORSE student at the University of Warwick with a strong academic foundation and hands-on experience in actuarial work, risk modelling, and data analysis. I’m passionate about transforming complex data into real-world insights and guiding students to build confidence in maths and statistics.</p>
+</section>
+
+<section id="projects">
+  <div class="highlight">Projects</div>
+
+  <div class="card">
+    <h3>Predictive Modelling in Property and Casualty Insurance</h3>
+    <p>This project focuses on building machine learning models to predict claim severity in property and casualty insurance. Includes model training, EDA, and performance evaluation using Python, SQL, and Jupyter Notebooks.</p>
+    <a href="https://github.com/mobucheeri/Predictive_Modelling_PnC" target="_blank">View Project on GitHub</a>
+  </div>
+
+  <div class="card">
+    <h3>GLOBMED Closed Claims Analysis</h3>
+    <p>Analysed closed claims data (2019–2023) from a large medical insurance portfolio using R. Cleaned and visualised data, developed predictive models, and built insights using Shiny dashboards and ggplot2.</p>
+  </div>
+</section>
+
+<section id="tutoring">
+  <div class="highlight">Tutoring</div>
+  <p>I offer personalised tutoring in Maths and Statistics at all levels – from school to university. With a patient, data-driven approach, I help students achieve clarity and success.</p>
+
+  <iframe src="https://www.youtube.com/embed/6ANWe-Rs1_I" title="Intro Video"></iframe>
+</section>
+
+<section id="contact">
+  <div class="highlight">Connect</div>
+  <div class="buttons">
+    <a href="https://github.com/mobucheeri" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/mohamed-bucheeri-80644616b/" target="_blank">LinkedIn</a>
+    <a href="https://www.youtube.com/@mohamedthementor" target="_blank">YouTube</a>
+    <a href="https://preply.com/en/tutor/6218579" target="_blank">Preply</a>
+  </div>
+</section>
+
+</body>
+</html>
